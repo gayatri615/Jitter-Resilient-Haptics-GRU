@@ -47,5 +47,5 @@ The system was evaluated using a heavy-tailed **Pareto Distribution** to simulat
 * **Explanation:** This plot captures the training and validation MSE profiles over 10 epochs. Both Model A and Model B demonstrate stable, rapid asymptotic decay toward zero without any geometric signs of overfitting or gradient explosions, verifying the mathematical reliability of our training pipeline.
 
 ### 2. Mechanical Limit Cycle Suppression
-![Mechanical Joint Simulation](./assets/limit_cycles.png)
+![Mechanical Joint Simulation](https://github.com/gayatri615/Jitter-Resilient-Haptics-GRU/blob/main/Mechanical%20Plant%20Joint%20Response%20Simulation%20.png?raw=true)
 * **Explanation:** This chart displays the physical reaction of a simulated robotic joint (Mass-Spring-Damper plant). The red dashed line shows how a raw, unbuffered network drop causes violent position overcorrections and oscillations. The blue line shows our **Causal Edge GRU** dynamically filling the data gaps, smoothing out the physical control actions to match the ideal path trajectory perfectly.
