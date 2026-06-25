@@ -43,7 +43,7 @@ The system was evaluated using a heavy-tailed **Pareto Distribution** to simulat
 ## Visual Analysis & Validation
 
 ### 1. Model Convergence Profile
-![Model Convergence](./assets/convergence_history.png)
+![Model Convergence](https://github.com/gayatri615/Jitter-Resilient-Haptics-GRU/blob/main/Model%20Loss%20Convergence%20Curves.png?raw=true)
 * **Explanation:** This plot captures the training and validation MSE profiles over 10 epochs. Both Model A and Model B demonstrate stable, rapid asymptotic decay toward zero without any geometric signs of overfitting or gradient explosions, verifying the mathematical reliability of our training pipeline.
 
 ### 2. Mechanical Limit Cycle Suppression
